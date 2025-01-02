@@ -11,8 +11,7 @@ sudo apt install -y \
     git \               # Version control system
     curl \              # Command line tool for transferring data
     wget \              # Network downloader
-    vim \               # Text editor
-    nano \              # Another text editor
+    nano \              # Text editor (alternative to Vim)
     htop \              # Interactive process viewer
     tree \              # Directory listing command
     net-tools \         # Networking tools
@@ -38,7 +37,8 @@ sudo apt install -y \
     gparted \           # Partition editor
     snapd               # Snap package manager
 
-# Install curl and speedtest-cli
+# Install speedtest-cli
+echo "Installing speedtest-cli..."
 sudo apt-get install curl && curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash && sudo apt-get install speedtest
 
 # Clean up
