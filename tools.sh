@@ -35,11 +35,13 @@ sudo apt install -y \
     exa \
     lm-sensors \
     gparted \
-    snapd
+    snapd \
+    yt-dlp
 
 # Install speedtest-cli
 echo "Installing speedtest-cli..."
 sudo apt-get install curl && curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash && sudo apt-get install speedtest
+
 
 # Clean up
 echo "Cleaning up..."
