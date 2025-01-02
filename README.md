@@ -6,5 +6,5 @@ wget https://raw.githubusercontent.com/codebyhasan/tools/main/tools.sh && sudo c
 ## or 
 
 ```bash
-https://dub.sh/toolsbyhasan && sudo chmod +x tools.sh && sudo ./tools.sh
+wget https://dub.sh/toolsbyhasan && sudo chmod +x tools.sh && sudo ./tools.sh
 ```
