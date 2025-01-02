@@ -7,35 +7,35 @@ sudo apt update
 # Install essential tools
 echo "Installing essential tools..."
 sudo apt install -y \
-    build-essential \  # Essential compilation tools
-    git \               # Version control system
-    curl \              # Command line tool for transferring data
-    wget \              # Network downloader
-    nano \              # Text editor (alternative to Vim)
-    htop \              # Interactive process viewer
-    tree \              # Directory listing command
-    net-tools \         # Networking tools
-    iputils-ping \      # Ping command
-    unzip \             # Unzip files
-    zip \               # Zip files
-    tmux \              # Terminal multiplexer
-    python3 \          # Python 3
-    python3-pip \      # Python package installer
-    docker.io \        # Docker container platform
-    docker-compose \    # Tool for defining and running multi-container Docker applications
-    jq \                # Command-line JSON processor
-    rsync \             # File synchronization tool
-    gcc \               # GNU Compiler Collection
-    make \              # Build automation tool
-    neofetch \          # System information tool
-    fzf \               # Command-line fuzzy finder
-    bat \               # Cat clone with syntax highlighting
-    ripgrep \           # Line-oriented search tool
-    silversearcher-ag \ # Code searching tool
-    exa \               # Modern replacement for 'ls'
-    lm-sensors \        # Hardware monitoring
-    gparted \           # Partition editor
-    snapd               # Snap package manager
+    build-essential \
+    git \
+    curl \
+    wget \
+    nano \
+    htop \
+    tree \
+    net-tools \
+    iputils-ping \
+    unzip \
+    zip \
+    tmux \
+    python3 \
+    python3-pip \
+    docker.io \
+    docker-compose \
+    jq \
+    rsync \
+    gcc \
+    make \
+    neofetch \
+    fzf \
+    bat \
+    ripgrep \
+    silversearcher-ag \
+    exa \
+    lm-sensors \
+    gparted \
+    snapd
 
 # Install speedtest-cli
 echo "Installing speedtest-cli..."
