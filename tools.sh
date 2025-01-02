@@ -28,20 +28,12 @@ sudo apt install -y \
     gcc \
     make \
     neofetch \
-    fzf \
-    bat \
-    ripgrep \
-    silversearcher-ag \
-    exa \
-    lm-sensors \
-    gparted \
-    snapd \
-    yt-dlp
 
 # Install speedtest-cli
 echo "Installing speedtest-cli..."
 sudo apt-get install curl && curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash && sudo apt-get install speedtest
 
+pip install yt-dlp
 
 # Clean up
 echo "Cleaning up..."
