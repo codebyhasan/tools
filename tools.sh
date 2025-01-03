@@ -7,33 +7,11 @@ sudo apt update
 # Install essential tools
 echo "Installing essential tools..."
 sudo apt install -y \
-    build-essential \
-    git \
-    curl \
-    wget \
-    nano \
-    htop \
-    tree \
-    net-tools \
-    iputils-ping \
-    unzip \
-    zip \
-    tmux \
-    python3 \
-    python3-pip \
-    docker.io \
-    docker-compose \
-    jq \
-    rsync \
-    gcc \
-    make \
     neofetch \
 
 # Install speedtest-cli
 echo "Installing speedtest-cli..."
 sudo apt-get install curl && curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash && sudo apt-get install speedtest
-
-sudo pip install yt-dlp
 
 # Clean up
 echo "Cleaning up..."
