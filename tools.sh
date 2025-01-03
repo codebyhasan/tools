@@ -69,11 +69,17 @@ else
     exit 1
 fi
 
-# Configure yt-dlp default output format to .mp4
+# Configure yt-dlp to use a default output format and merge files into .mp4
 echo "Configuring yt-dlp to default to .mp4 format..."
+
+# Create the configuration directory for yt-dlp if it doesn't exist
 mkdir -p ~/.config/yt-dlp
+
+# Set the output format to include the title, platform name, and video ID
 echo '--output "%(title)s [%(extractor)s %(id)s].%(ext)s"' >> ~/.config/yt-dlp/config
-echo '--merge-output-format mp4' > ~/.config/yt-dlp/config
+
+# Set the merge output format to .mp4
+echo '--merge-output-format mp4' >> ~/.config/yt-dlp/config
 
 
 
