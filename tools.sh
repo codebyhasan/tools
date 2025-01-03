@@ -72,9 +72,10 @@ fi
 # Configure yt-dlp default output format to .mp4
 echo "Configuring yt-dlp to default to .mp4 format..."
 mkdir -p ~/.config/yt-dlp
+echo '--output "%(title)s [%(extractor)s %(id)s].%(ext)s"' >> ~/.config/yt-dlp/config
 echo '--merge-output-format mp4' > ~/.config/yt-dlp/config
-echo '--merge-output-format mp4' > ~/.config/yt-dlp/config
-echo '--output "%(title)s [%(platform)s %(id)s].%(ext)s"' >> ~/.config/yt-dlp/config
+
+
 
 # Clean up
 echo "Cleaning up..."
