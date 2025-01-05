@@ -95,3 +95,6 @@ ELAPSED_TIME=$((END_TIME - START_TIME))
 echo "All tools have been installed successfully!"
 echo "Total tools installed: $TOOL_COUNT"
 echo "Script execution time: $((ELAPSED_TIME / 60)) minutes and $((ELAPSED_TIME % 60)) seconds."
+
+clear
+neofetch
