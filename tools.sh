@@ -80,6 +80,7 @@ echo '--output "%(title)s [%(extractor)s %(id)s].%(ext)s"' | sudo tee -a ~/.conf
 
 # Set the merge output format to .mp4 (using sudo)
 echo '--merge-output-format mp4' | sudo tee -a ~/.config/yt-dlp/config
+echo '--continue' | sudo tee -a ~/.config/yt-dlp/config
 
 
 
