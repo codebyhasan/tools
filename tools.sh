@@ -20,6 +20,9 @@ sudo apt-get install -y curl && \
     curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash && \
     sudo apt-get install -y speedtest && ((TOOL_COUNT++))
 
+# Install nano
+sudo apt install -y nano && ((TOOL_COUNT++))
+
 # Install FFmpeg
 echo "Installing FFmpeg..."
 sudo apt install -y ffmpeg && ((TOOL_COUNT++))
