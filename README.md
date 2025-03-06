@@ -18,7 +18,7 @@ This will:
 To install the tools on Windows, run the following command in PowerShell:
 
 ```powershell
-wget https://raw.githubusercontent.com/codebyhasan/tools/main/tools.bat -OutFile tools.bat; .\tools.bat
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/codebyhasan/tools/main/tools.bat" -OutFile "tools.bat"; .\tools.bat
 ```
 
 ### What Gets Installed
